@@ -1,0 +1,24 @@
+{
+  "name": "angular2-moduleid-loader",
+  "version": "0.1.0",
+  "description": "Angular2 webpack loader to remove 'moduleId: module.id' from @Component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindqc/angular2-moduleid-loader.git"
+  },
+  "keywords": [
+    "angular2",
+    "webpack",
+    "loader"
+  ],
+  "author": "Kevin Doyon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevindqc/angular2-moduleid-loader/issues"
+  },
+  "homepage": "https://github.com/kevindqc/angular2-moduleid-loader#readme"
+}
