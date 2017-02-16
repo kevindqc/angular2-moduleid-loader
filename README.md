@@ -6,23 +6,21 @@
 For example, if your `.ts` files are in the same folder as your `.html` files, instead of having:
 
 ```
-@Component(
-{
+@Component({
   selector: 'my-component',
   templateUrl: 'app/my/my.component.ts'
 })
-export class MyComponent {}
+export class MyComponent { }
 ```
 
 You can have:
 ```
-@Component(
-{
+@Component({
   moduleId: module.id,
   selector: 'my-component',
   templateUrl: 'my.component.ts'
 })
-export class MyComponent {}
+export class MyComponent { }
 ```
 
 More information here: https://angular.io/docs/ts/latest/cookbook/component-relative-paths.html
