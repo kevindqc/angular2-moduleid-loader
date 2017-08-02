@@ -1,5 +1,8 @@
 # angular2-moduleid-loader
 
+# NOTE: This shouldn't be needed anymore. Just don't use moduleId. https://angular.io/guide/change-log#all-mention-of-moduleid-removed-component-relative-paths-guide-deleted-2017-03-13
+
+
 ## What is moduleId
 
 `ModuleId` is a metadata property you can set when defining a component (in the `@Component` section). When using CommonJS, it allows you to use relative path inside the `templateUrl` and `styleUrls` metadata properties.
